@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.timetable.TimeTableActivity">
+
+    <include layout="@layout/toolbar_tab" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mViewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.github.jorgecastilloprz.FABProgressCircle
+        android:id="@+id/fabProgressCircle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="end|bottom"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:layout_behavior="com.kimjio.cheongha.ms.FloatingActionButtonBehaviour"
+        app:arcColor="@color/colorProgress"
+        app:finalIcon="@drawable/ic_done"
+        android:scaleType="centerInside">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_update"
+        app:fabSize="normal" />
+    </com.github.jorgecastilloprz.FABProgressCircle>
+
+</android.support.design.widget.CoordinatorLayout>

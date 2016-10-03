@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2e7d32</color>
+    <color name="colorPrimaryDark">#1b5e20</color>
+    <color name="colorAccent">#43a047</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorIcons">#212121</color>
+    <color name="colorDivider">#B6B6B6</color>
+
+    <color name="colorProgress">#ffffeb3b</color>
+
+    <color name="Re1">#f44336</color>
+    <color name="Re2">#ff9800</color>
+    <color name="Re3">#ffeb3b</color>
+    <color name="Re4">#4caf50</color>
+    <color name="Re5">#2196f3</color>
+    <color name="Re6">#9c27b0</color>
+</resources>
