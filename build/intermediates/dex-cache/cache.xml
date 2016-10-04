@@ -1,3 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_6511a72ef9d467126e3a27929028340e3fea2b18\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_5edb6f0dfdfc620983a8b95a75e61306fb93ae31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_61e4f4d77884fa01bc52e930d7bb22c1467c299f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b9824e130297ad60d4e54b82403c1095802556eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="556fdef74320d4349fadc28998fad0d1c38c2b64">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d18409d4d53a24edd9ac875c86375237efa60cdb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_56f52e0d827ee0a9c1760042cd0abb87b7c4be2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kimji\.gradle\caches\modules-2\files-2.1\org.jbundle.util.osgi.wrapped\org.jbundle.util.osgi.wrapped.org.apache.http.client\4.1.2\98c86e42679fe7ac066f6c242e0d14f0bce0bb7c\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_ec5404ce1bf0de2a21e834f2312769f0145b00dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_30833862355a9fb88981d2c0557af49595931c73\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.wdullaer\materialdatetimepicker\2.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8a0cab6c96fb94a28534e7d20be3f08f880dee00">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.wdullaer-materialdatetimepicker-2.2.0_4f34dc980bd056a179de7b422b68a15c41a01ca1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.github.jorgecastilloprz\fabprogresscircle\1.01\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9abc58346d8519a4be59cdf0f9fe3eb52dd9c8ac">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.jorgecastilloprz-fabprogresscircle-1.01_a19f2519c1e4249c46b0b70f89e2f53a122c658d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\libs\jericho-html-3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f7c1fe7aa0f8d073b47a1f9162df0ed3beee4029">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\2\jericho-html-3.3_e57072ef96cfaf4d546b31ce9fa11665c6b2f14a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_df52b923747ca5b27fca0cbd7ca86d07f5307619\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_0bae213f104dda1fec845d9c144af053af3f778a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_5a7bed952d785bc250ca57bf5126b6f06445e509\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7e2c5f4657e1a2b17757c095400630955400e7fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_453c3be8398ed9648fd18464dd7ee1e3172bec58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_aa8b0a3637781e183b5ef80d8f6735cf742309ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_58dc55368eca5f1115c14a7be3494f3b069dd2ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_149eb1aadfac9be1e2771422d2b5c9af23825632\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_daa6d862fbf1aca265c2226a47df8ad7ca5fd559\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e3c9b884cf077d9b7c0df3bec314e0fa516a6452">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cc4e1c749dd8a0d89e7bdd72756d15ac7845df92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_fb1cf502a390605c0d2895ab35b475736cae98fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kimji\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_fc58a309c8ae71fbbab7852c1227b5f9b6832501\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\CheongHaMS\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_4293b6300663ea1ecf3e5b7df909c4b8e06323f9\classes.dex" />
+    </item>
+
+</items>

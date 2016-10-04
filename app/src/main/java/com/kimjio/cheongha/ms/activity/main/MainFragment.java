@@ -21,10 +21,14 @@ import com.kimjio.cheongha.ms.tool.Preference;
 import com.kimjio.cheongha.ms.tool.RecyclerItemClickListener;
 import com.kimjio.cheongha.ms.tool.TimeTableTool;
 
+import java.util.Calendar;
+
 /**
  * Created by whdghks913 on 2015-11-30.
  */
 public class MainFragment extends Fragment {
+
+    Calendar mCalendar = Calendar.getInstance();
 
     public static Fragment getInstance(int code) {
         MainFragment mFragment = new MainFragment();
@@ -84,12 +88,22 @@ public class MainFragment extends Fragment {
         if (code == 1) {
             // SimpleView
             if (mPref.getBoolean("simpleShowBap", true)) {
-                BapTool.todayBapData mBapData = BapTool.getTodayBap(getActivity());
-                mAdapter.addItem(R.drawable.rice,
-                        getString(R.string.title_activity_bap),
-                        getString(R.string.message_activity_bap),
-                        mBapData.title,
-                        mBapData.info);
+                int hour = mCalendar.get(Calendar.HOUR_OF_DAY);
+                if (hour <= 13) {
+                    BapTool.todayBapData mBapData = BapTool.getTodayBap(getActivity());
+                    mAdapter.addItem(R.drawable.rice,
+                            getString(R.string.title_activity_bap),
+                            getString(R.string.message_activity_bap),
+                            mBapData.title,
+                            mBapData.info);
+                } else {
+                    BapTool.tomorrowBapData mBapData = BapTool.getTomorrowBap(getActivity());
+                    mAdapter.addItem(R.drawable.rice,
+                            getString(R.string.title_activity_bap),
+                            getString(R.string.message_activity_bap),
+                            mBapData.title,
+                            mBapData.info);
+                }
             } else {
                 mAdapter.addItem(R.drawable.rice,
                         getString(R.string.title_activity_bap),

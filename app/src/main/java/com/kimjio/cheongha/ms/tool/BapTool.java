@@ -133,8 +133,11 @@ public class BapTool {
         Log.e("mData.Lunch", "" + mData.Lunch);
         Log.e("mData.Dinner", "" + mData.Dinner);*/
 
-        if (mData.Lunch == null && mData.LunchTomorrow == null/*&& mData.Dinner == null*/) {
+        if (mData.Lunch == null /*&& mData.Dinner == null*/) {
             mData.isBlankDay = true;
+        }
+        if (mData.LunchTomorrow == null/*&& mData.Dinner == null*/) {
+            mData.isBlankTomorrow = true;
         }
 
         return mData;
@@ -147,6 +150,7 @@ public class BapTool {
         public String LunchTomorrow;
         //public String Dinner;
         public boolean isBlankDay = false;
+        public boolean isBlankTomorrow = false;
     }
 
     public static boolean mStringCheck(String mString) {
@@ -176,6 +180,7 @@ public class BapTool {
             //if (hour <= 13) {
                 mReturnData.title = mContext.getString(R.string.today_lunch);
                 mReturnData.info = (!MealLibrary.isMealCheck(mData.Lunch) ? mContext.getString(R.string.no_data_lunch) : mData.Lunch);
+                mReturnData.info = replaceString(mReturnData.info);
             /*} else {
                 mReturnData.title = mContext.getString(R.string.today_dinner);
                 mReturnData.info = (!MealLibrary.isMealCheck(mData.Dinner) ? mContext.getString(R.string.no_data_dinner) : mData.Dinner);
@@ -188,21 +193,64 @@ public class BapTool {
         return mReturnData;
     }
 
+    public static tomorrowBapData getTomorrowBap(Context mContext) {
+        Calendar mCalendar = Calendar.getInstance();
+        int year = mCalendar.get(Calendar.YEAR);
+        int month = mCalendar.get(Calendar.MONTH);
+        int day = mCalendar.get(Calendar.DAY_OF_MONTH);
 
+        restoreBapDateClass mData = BapTool.restoreBapData(mContext, year, month, day);
+        tomorrowBapData mReturnData = new tomorrowBapData();
+
+        if (!mData.isBlankTomorrow) {
+            //int hour = mCalendar.get(Calendar.HOUR_OF_DAY);
+
+            /**
+             * hour : 0~23
+             *
+             * 0~13 : Lunch
+             * 14~23 : Dinner
+             */
+            //if (hour <= 13) {
+            mReturnData.title = mContext.getString(R.string.tomorrow_lunch);
+            mReturnData.info = (!MealLibrary.isMealCheck(mData.LunchTomorrow) ? mContext.getString(R.string.no_data_lunch) : mData.LunchTomorrow);
+            mReturnData.info = replaceString(mReturnData.info);
+            /*} else {
+                mReturnData.title = mContext.getString(R.string.today_dinner);
+                mReturnData.info = (!MealLibrary.isMealCheck(mData.Dinner) ? mContext.getString(R.string.no_data_dinner) : mData.Dinner);
+            }*/
+        } else {
+            mReturnData.title = mContext.getString(R.string.no_data_title);
+            mReturnData.info = mContext.getString(R.string.no_data_message);
+        }
+
+        return mReturnData;
+    }
 
     public static class todayBapData {
         public String title;
         public String info;
     }
 
+    public static class tomorrowBapData {
+        public String title;
+        public String info;
+    }
+
     public static String replaceString(String mString) {
         String[] mTrash = {"①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩", "⑪", "⑫", "⑬",
-                "(1)", "(2)", "(3)", "(4)", "(5)", "(6)", "(7)", "(8)", "(9)", "(10)", "(11)", "(12)", "(13)"};
+                "(1)", "(2)", "(3)", "(4)", "(5)", "(6)", "(7)", "(8)", "(9)", "(10)", "(11)", "(12)", "(13)", "(소)", "*"};
         for (String e : mTrash) {
             mString = mString.replace(e, "");
         }
 
-        mString = mString.replace("\n", "\n  ");
+        //mString = mString.replace("\n", " ");
+
+        return mString;
+    }
+
+    public static String replacelistString(String mString) {
+        mString = mString.replace("*", "");
 
         return mString;
     }

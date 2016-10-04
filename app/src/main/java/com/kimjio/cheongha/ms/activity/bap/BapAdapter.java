@@ -2,6 +2,7 @@ package com.kimjio.cheongha.ms.activity.bap;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +33,7 @@ class BapListData {
     public String mLunch;
     //public String mDinner;
     public boolean isToday;
+    public boolean isBlankDay = false;
 }
 
 public class BapAdapter extends BaseAdapter {
@@ -96,6 +98,7 @@ public class BapAdapter extends BaseAdapter {
         if (convertView == null) {
             mHolder = new BapViewHolder();
 
+
             LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.row_bap_item, null);
 
@@ -104,6 +107,7 @@ public class BapAdapter extends BaseAdapter {
             mHolder.mLunch = (TextView) convertView.findViewById(R.id.mLunch);
             //mHolder.mDinner = (TextView) convertView.findViewById(R.id.mDinner);
             mHolder.starLayout = (LinearLayout) convertView.findViewById(R.id.starLayout);
+
 
             convertView.setTag(mHolder);
         } else {
@@ -117,20 +121,29 @@ public class BapAdapter extends BaseAdapter {
         String mLunch = mData.mLunch;
         //String mDinner = mData.mDinner;
 
-        if (BapTool.mStringCheck(mLunch))
+        if (BapTool.mStringCheck(mLunch)) {
+            mData.isBlankDay = true;
             mLunch = mData.mLunch = mContext.getResources().getString(R.string.no_data_lunch);
+        }
         /*if (BapTool.mStringCheck(mDinner))
             mDinner = mData.mDinner = mContext.getResources().getString(R.string.no_data_dinner);*/
 
         mHolder.mCalender.setText(mCalender);
         mHolder.mDayOfTheWeek.setText(mDayOfTheWeek);
+        mLunch = BapTool.replacelistString(mLunch);
         mHolder.mLunch.setText(mLunch);
         //mHolder.mDinner.setText(mDinner);
 
+
+
         if (mData.isToday) {
-            mHolder.starLayout.setVisibility(View.VISIBLE);
-            convertView.findViewById(R.id.giveStar).setOnClickListener(mStarListener);
-            convertView.findViewById(R.id.showStar).setOnClickListener(mStarListener);
+            if (mData.isBlankDay){
+                mHolder.starLayout.setVisibility(View.GONE);
+            } else {
+                mHolder.starLayout.setVisibility(View.VISIBLE);
+                convertView.findViewById(R.id.giveStar).setOnClickListener(mStarListener);
+                convertView.findViewById(R.id.showStar).setOnClickListener(mStarListener);
+            }
         } else {
             mHolder.starLayout.setVisibility(View.GONE);
         }

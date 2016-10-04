@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="점심"
+                android:text="@string/title_activity_bap"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -60,7 +60,7 @@
                 android:layout_marginTop="15sp"
                 android:textSize="15sp" />
 
-            <TextView
+            <!--<TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -70,7 +70,7 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <!--<TextView
+            <TextView
                 android:id="@+id/mDinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

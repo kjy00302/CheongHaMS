@@ -197,7 +197,7 @@ public class BapActivity extends AppCompatActivity {
             }
         }, year, month, day);
         datePickerDialog.setYearRange(2006, 2030);
-        datePickerDialog.setTitle("DatePicker");
+        //datePickerDialog.setTitle("");
         datePickerDialog.show(getFragmentManager(), "Datepickerdialog");
     }
 
