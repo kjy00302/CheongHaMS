@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="556fdef74320d4349fadc28998fad0d1c38c2b64">
+        sha1="be067114f6fcb0cda9071fbd3dcc3d88a37bf7f5">
         <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d18409d4d53a24edd9ac875c86375237efa60cdb\classes.dex" />
     </item>
     <item
@@ -187,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="e3c9b884cf077d9b7c0df3bec314e0fa516a6452">
+        sha1="b7bcb683cf98305a8c65819167540cf5831ea266">
         <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_cc4e1c749dd8a0d89e7bdd72756d15ac7845df92\classes.dex" />
     </item>
     <item
@@ -201,12 +201,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\kimji\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jar="C:\Users\kimji\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_fc58a309c8ae71fbbab7852c1227b5f9b6832501\classes.dex" />
+        <dex dex="C:\CheongHaMS\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_da99d1765c8e75a72fbe8e91d583fc555697aadc\classes.dex" />
     </item>
     <item
         is-multidex="true"

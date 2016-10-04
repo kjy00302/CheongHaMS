@@ -20,7 +20,7 @@ public class TimeTableTool {
     public final static String mFilePath = "/data/data/com.kimjio.cheongha.ms/databases/";
     public final static String mGoogleSpreadSheetUrl = "https://docs.google.com/spreadsheets/d/1BZR8g4ZFPwCTi4P7DwIP0SSXVHG_2LqjyNuKmdzdXIw/pubhtml?gid=0&single=true";
 
-    public final static String[] mDisplayName = {"월요일 😪", "화요일", "수요일", "목요일", "금요일 😆"};
+    public final static String[] mDisplayName = {"월요일 😪", "화요일 😐", "수요일 ?🙁", "목요일 😑", "금요일 😆"};
 
     public static boolean fileExists() {
         return new File(TimeTableTool.mFilePath + TimeTableTool.TimeTableDBName).exists();
